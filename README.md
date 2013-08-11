@@ -17,7 +17,7 @@ Usage summary
 </p>
 <p>
 How to use memcache-sniffer to sniffer query:: </p>
-<p>You can get help with ./memcache-sniffer -h or ./mysql-sniffer --help
+<p>You can get help with ./memcache-sniffer -h or ./mysql-sniffer --help </p>
     * ./memcache-sniffer -ieth1 -p11211 -r0.2   
     * ./memcache-sniffer -ieth1 -f'host 10.4.16.21 and tcp dst port 11211'   
     * -i or --interface: the interface you want to siniffer   
@@ -25,4 +25,3 @@ How to use memcache-sniffer to sniffer query:: </p>
     * -f or --filter: filter, defalut None, would use "dst you host and tcp dst port you port    
     * -r or --radio: filter radio, from 0 to 1, default 1 means sniffer all query     
     * -o or --output-file: output file, if set it will print the query to this file instead of stdout, defult None.   
-</p>
